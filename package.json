@@ -1,0 +1,37 @@
+{
+  "name": "service-accounts",
+  "version": "1.0.0",
+  "description": "Demonstrating how to describe a RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/server.js",
+    "ais": "SET \"NODE_ENV=ais\" &&  node ./app/server.js",
+    "globe": "SET \"NODE_ENV=globe\" &&  node ./app/server.js",
+    "singtel": "SET \"NODE_ENV=singtel\" &&  node ./app/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "~0.21.0",
+    "cors": "~2.8.5",
+    "dotenv-safe": "~8.2.0",
+    "express": "~4.17.1",
+    "express-http-context": "^1.2.4",
+    "formidable": "^1.2.2",
+    "hashmap": "~2.4.0",
+    "hbs": "~4.1.1",
+    "helmet": "3.16.0",
+    "joi": "^17.3.0",
+    "joi-to-swagger": "^5.1.0",
+    "lodash": "~4.17.20",
+    "moment": "~2.29.1",
+    "mongoose": "~5.10.11",
+    "nanoid": "^3.1.16",
+    "prom-client": "~12.0.0",
+    "querystring": "^0.2.0",
+    "save": "~2.4.0",
+    "swagger-ui-express": "^4.1.4",
+    "winston": "~3.3.3",
+    "winston-daily-rotate-file": "~4.5.0"
+  }
+}
